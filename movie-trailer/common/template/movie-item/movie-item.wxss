@@ -1,0 +1,28 @@
+.movie-item {
+  width: 45%;
+  margin-bottom: 20rpx;
+}
+
+.movie-item .movie-poster {
+  width: 100%;
+}
+
+.movie-desc {
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.title {
+  color: #333;  
+}
+
+.rate {
+  color: #f30;
+  margin-left: 15rpx;
+}
+
+.movie-extra {
+  font-size: 20rpx;
+  text-align: center;
+  color: #888;
+}

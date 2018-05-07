@@ -1,0 +1,12 @@
+<template name="movieItemTemplate">
+  <view class="movie-item">
+    <image src="{{ movie.poster }}" class="movie-poster"></image>
+    <view class="movie-desc">
+      <text class="title">{{ movie.title }}</text>
+      <text class="rate">{{ movie.rate }}分</text>
+    </view>
+    <view class="movie-extra">
+      <text class="types">{{ movie.types }}</text> / <text class="date">{{ movie.year }}</text>
+    </view>
+  </view>
+</template>

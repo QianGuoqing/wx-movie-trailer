@@ -1,0 +1,16 @@
+@import "/common/template/movie-item/movie-item.wxss";
+
+.container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.loading {
+  text-align: center;
+  height: 80rpx;
+}
+
+.loading image {
+  height: 100%;
+}
