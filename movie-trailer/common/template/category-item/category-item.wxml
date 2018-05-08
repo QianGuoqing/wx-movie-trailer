@@ -1,0 +1,6 @@
+<template name="categoryItemTemplate">
+  <view class="category-image">
+    <image src="{{ type.img }}" class="image" mode="aspectFill"></image>
+    <view class="title">{{ type.name }}</view>
+  </view>
+</template>

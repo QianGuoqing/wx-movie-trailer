@@ -1,0 +1,7 @@
+<import src="../../common/template/category-item/category-item.wxml"/>
+
+<view class="category">
+  <block wx:for="{{ types }}" wx:for-item="type" wx:key="{{ index }}">
+    <template is="categoryItemTemplate" data="{{ type }}"></template>
+  </block>
+</view>
